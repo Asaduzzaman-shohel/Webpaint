@@ -1,0 +1,102 @@
+/* Smaller phone and iphone5 */
+@media screen and (min-width: 320px) and (max-width: 568px) {
+	.bannercontent h2 span {
+	    font-weight: bold;
+	    color: #D8D8D8;
+	    font-size: 45px;
+	}
+	.bannercontent p {
+	    font-size: 20px;
+	    color: #b8b1b1;
+	    font-weight: normal;
+	    line-height: 27px;
+	    margin-top: 25px;
+	}
+	.mybtn {
+		padding: 10px 24px;
+	}
+	.single_service {
+    	margin-bottom: 70px;
+	}
+	.button {
+	    display: inline-block;
+	    padding: 14px 16px;
+	    background: #FF775D;
+	    border: none;
+	    border-radius: 7px;
+	    background-image: linear-gradient( to bottom, hsla(0, 0%, 0%, 0), hsla(0, 0%, 0%, 0.2) );
+	    color: #222;
+	    font-family: sans-serif;
+	    font-size: 15px;
+	    text-shadow: 0 1px white;
+	    cursor: pointer;
+	    text-transform: uppercase;
+	    color: #fff;
+	}
+	.element-item {
+	    width:50%;
+	    border: 5px solid #fff;   
+	}
+	.element-item img {
+	    width:100%;
+	}
+	.portfolio p {
+		font-size: 17px;
+	}
+	
+	.contact_content p {
+		font-size: 19px;
+	}
+	.add_right p {
+		margin-right: 243px;
+	}
+	.footer_right {
+    	float: none;
+	}
+	.navbar-default .navbar-toggle {
+    	border-color: #FF765C;
+	}
+}
+
+
+/* Small device tablet / Ipad */
+@media screen and (min-width: 768px) and (max-width: 991px) {
+	.navbar-default .navbar-nav>li>a {
+		font-size: 13px;
+	}
+	.navbar>.container-fluid .navbar-brand {
+		font-size: 18px;
+	}
+	.bannercontent h2 {
+		font-size: 54px;
+	}
+	.bannercontent p {
+	    font-size: 23px;
+	    color: #b8b1b1;
+	    font-weight: normal;
+	    line-height: 30px;
+	    margin-top: 25px;
+	}
+	.mybtn {
+		padding: 11px 34px;
+	}
+	.single_service {
+    	margin-bottom: 55px;
+	}
+	.element-item {
+	    width:50%;
+	    border: 5px solid #fff;   
+	}
+	.element-item img {
+	    width:100%;
+	}
+	.footer_right p {
+		margin-top: -40px;
+	}
+	.footersection {
+		height:102px;
+	}
+	.footer_left {
+    	margin-top: 37px;
+	}
+}
